@@ -1,6 +1,5 @@
 # Portfolio_mobile-
 
-# Portfolio_mobile-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
