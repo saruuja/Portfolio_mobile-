@@ -4,7 +4,7 @@
 
 # Project Name
 
-> Hello Microverse project
+> Portfolio: setup and mobile version skeleton
 
 ## Built With
 
