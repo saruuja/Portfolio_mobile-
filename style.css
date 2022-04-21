@@ -1,0 +1,138 @@
+.header {
+  height: fit-content;
+  padding: 10px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  left: 16.67%;
+  right: 16.67%;
+}
+
+.logo {
+  display: flex;
+  color: #6070ff;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+nav {
+  flex-basis: 1%;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: #6070ff;
+  font-size: 1em;
+  padding-left: 10px;
+  margin-right: 4px;
+  text-decoration: none;
+}
+
+.background {
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  left: 30%;
+  top: 0;
+  background: #fff;
+}
+
+.Ellp_one {
+  position: absolute;
+  width: 38.5px;
+  height: 19.25px;
+  left: 16.04px;
+  top: 161.47px;
+}
+
+.Rec_one {
+  position: absolute;
+  width: 26.46px;
+  height: 4.73px;
+  left: 127.18px;
+  top: 151.59px;
+}
+
+.Ellp_two {
+  position: absolute;
+  width: 50px;
+  height: 105px;
+  left: 323px;
+  top: 152.24px;
+}
+
+.text {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  left: 24px;
+  top: 160.24px;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+.pra {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.foo_pra {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.Ellp_three {
+  position: absolute;
+  width: 24.14px;
+  height: 12.07px;
+  left: 320.76px;
+  top: 320.69px;
+}
+
+.Ellap_four {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 237px;
+  top: 400.1px;
+}
+
+.Social_Media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  position: static;
+  width: 100px;
+  height: 24px;
+  left: 24px;
+  top: 434px;
+  order: 2;
+  flex-grow: 0;
+  margin: 10px 0;
+}
