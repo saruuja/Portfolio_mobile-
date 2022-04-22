@@ -48,6 +48,10 @@
   font-size: 1.7rem;
   color: #6070ff;
 }
+ul li{
+  display:flex;
+  list-style-type:none;
+}
 
 .Ellp_one {
   position: absolute;
