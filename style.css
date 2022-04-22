@@ -1,19 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap');
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
-
 .Background {
   position: absolute;
-  width: 390px;
+  width: 375px;
   height: 718px;
   left: 30%;
-  top: 0;
+  top: 0px;
   background: #fff;
+  box-sizing: border-box;
 }
 
 .header {
@@ -30,12 +22,12 @@
   width: 140px;
   height: 40px;
   left: 12px;
-  top: 10px;
-  font-family: 'Times New Roman', Times, serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
+top: 10px; 
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
   color: #6070ff;
   align-items: center;
   text-align: center;
@@ -55,28 +47,44 @@ ul li {
 }
 
 .Ellp_one {
+  background-image: url(img/Ell1.png);
   position: absolute;
   width: 38.5px;
-  height: 19.25px;
-  left: 16.04px;
+  height: 600px;
+  left: 10.04px;
   top: 161.47px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .Rec_one {
+  background-image: url(img/Rec1.png);
   position: absolute;
   width: 26.46px;
-  height: 4.73px;
+  height: 600px;
   left: 127.18px;
   top: 151.59px;
-}
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+ }
 
 .Ellp_two {
+  background-image: url(img/Ellp2.png);
   position: absolute;
   width: 50px;
-  height: 80px;
+  height: 600px;
   font-size: 3rem;
   left: 323px;
   top: 150.24px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 h1 {
@@ -84,12 +92,12 @@ h1 {
   width: 327px;
   height: 150px;
   left: 24px;
-  top: 200.24px;
-  font-family: 'Times New Roman', Times, serif;
+  top: 150.24px;
+  font-family: 'Poppins';
   font-style: normal;
-  font-weight: 600;
-  font-size: 35px;
-  line-height: 40px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
   display: flex;
   align-items: center;
   color: #172b4d;
@@ -101,10 +109,10 @@ h1 {
   height: 146px;
   left: 24px;
   top: 310px;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
   color: #344563;
 }
 
@@ -112,11 +120,11 @@ h1 {
   position: absolute;
   left: 24px;
   top: 450px;
-  font-family: 'Times New Roman', Times, serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
   color: #7f8cff;
 }
 
@@ -132,17 +140,27 @@ h1 {
 }
 
 .Ellp_three {
+  background-image: url(img/Ellipse3.png);
   position: absolute;
   width: 24.14px;
-  height: 12.07px;
+  height: 600px;
   left: 320.76px;
   top: 450.69px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .Ellap_four {
+  background-image: url(img/Ellipse4.png);
   position: absolute;
   width: 20px;
-  height: 20px;
+  height: 600px;
   left: 230px;
   top: 550.1px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
