@@ -1,52 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.Background {
+  position: absolute;
+  width: 390px;
+  height: 718px;
+  left: 30%;
+  top: 0;
+  background: #fff;
+}
+
 .header {
-  height: fit-content;
-  padding: 10px;
-  margin: 10px auto;
   display: flex;
   justify-content: space-between;
-  left: 16.67%;
-  right: 16.67%;
+  align-items: center;
+  padding: 20px;
+  margin-top: 10px;
 }
 
 .logo {
   display: flex;
-  color: #6070ff;
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  left: 12px;
+  top: 10px;
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-}
-
-h2 {
-  font-weight: 100;
-}
-
-nav {
-  flex-basis: 1%;
-  padding: 10px;
-}
-
-nav ul {
-  display: flex;
-  list-style-type: none;
-}
-
-nav ul li a {
   color: #6070ff;
-  font-size: 1em;
-  padding-left: 10px;
-  margin-right: 4px;
-  text-decoration: none;
+  align-items: center;
+  text-align: center;
 }
 
-.background {
+#menu {
   position: absolute;
-  width: 375px;
-  height: 718px;
-  left: 30%;
-  top: 0;
-  background: #fff;
+  left: 85%;
+  top: 20px;
+  font-size: 1.7rem;
+  color: #6070ff;
 }
 
 .Ellp_one {
@@ -68,36 +68,45 @@ nav ul li a {
 .Ellp_two {
   position: absolute;
   width: 50px;
-  height: 105px;
+  height: 80px;
+  font-size: 3rem;
   left: 323px;
-  top: 152.24px;
-}
-
-.text {
-  position: absolute;
-  width: 300px;
-  height: 100px;
-  left: 24px;
-  top: 160.24px;
+  top: 150.24px;
 }
 
 h1 {
+  position: absolute;
+  width: 327px;
+  height: 150px;
+  left: 24px;
+  top: 200.24px;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 40px;
-  line-height: 52px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 40px;
   display: flex;
   align-items: center;
   color: #172b4d;
 }
 
 .pra {
+  position: absolute;
+  width: 327px;
+  height: 146px;
+  left: 24px;
+  top: 310px;
   font-family: 'Times New Roman', Times, serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  line-height: 24px;
+  color: #344563;
 }
 
-.foo_pra {
+.Lest {
+  position: absolute;
+  left: 24px;
+  top: 450px;
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
@@ -106,33 +115,29 @@ h1 {
   color: #7f8cff;
 }
 
+.social_Media {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 24px;
+  top: 490px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
 .Ellp_three {
   position: absolute;
   width: 24.14px;
   height: 12.07px;
   left: 320.76px;
-  top: 320.69px;
+  top: 450.69px;
 }
 
 .Ellap_four {
   position: absolute;
   width: 20px;
   height: 20px;
-  left: 237px;
-  top: 400.1px;
-}
-
-.Social_Media {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-left: 10px;
-  position: static;
-  width: 100px;
-  height: 24px;
-  left: 24px;
-  top: 434px;
-  order: 2;
-  flex-grow: 0;
-  margin: 10px 0;
+  left: 230px;
+  top: 550.1px;
 }
