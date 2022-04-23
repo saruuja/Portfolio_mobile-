@@ -94,7 +94,7 @@ ul li {
   justify-content: center;
 }
 
-h1 {
+h2 {
   position: absolute;
   width: 327px;
   height: 150px;
@@ -387,7 +387,7 @@ h1 {
   background: #fff;
 }
 
-#myself {
+.myself {
   position: relative;
   width: 327px;
   height: 101px;
@@ -407,7 +407,7 @@ h1 {
   margin: 12px 0;
 }
 
-#prag {
+.praga {
   position: static;
   width: 327px;
   height: 144px;
@@ -514,7 +514,7 @@ h1 {
   left: 12px;
   right: 78px;
   top: 55%;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
